@@ -10,6 +10,8 @@
 
 文章发表后，在国内和海外社区没找到相同的思路，原本以为是全球首发，后续根据粉丝评论，该思路之前海外有大佬分享过：[Dumping LSA secrets: a story about task decorrelation](https://sensepost.com/blog/2024/dumping-lsa-secrets-a-story-about-task-decorrelation/)
 
+**本文的源代码和Release已发布在Github，分享不易，觉得不错的师傅可以给个Star，万分感谢！**
+
 # 2# 关键步骤
 
 ## 2.1 第一步、导出reg文件
