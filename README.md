@@ -1,3 +1,5 @@
+![HashDump-BypassEDR](https://socialify.git.ci/AabyssZG/HashDump-BypassEDR/image?description=1&font=JetBrains+Mono&forks=1&issues=1&language=1&name=1&owner=1&pattern=Diagonal+Stripes&pulls=1&stargazers=1&theme=Dark)
+
 # 1# 项目概述
 
 通过系统白程序 `Reg.exe` 的拓展应用，巧妙的绕过了杀软的拦截点，实现了绕过EDR从而DumpHash的目的。
@@ -67,3 +69,18 @@ python secretsdump.py -sam SAM.hive -security SECURITY.hive -bootkey <目标机�
 
 - 在实际测试中，在Win10和Win11以及Windows Server 2025环境上使用 `reg.exe export` 命令导出注册表需要SYSTEM权限，而在Windows Server 2022及以下环境使用 `reg.exe export` 命令导出注册表只需要普通管理员权限即可（并不需要SYSTEM权限），如果使用 `reg.exe export` 命令导出注册表后文件只有1KB大小，那就说明权限不够。
 - 在实际测试中，使用 `BootKey.exe` 提取程序导出BootKey是不需要管理员权限的，而且实测大部分杀软（目前遇到的杀软都不会）都不会查杀。
+
+# 🙏 4# 感谢各位师傅
+
+## Stargazers
+
+[![Stargazers repo roster for @AabyssZG/HashDump-BypassEDR](http://reporoster.com/stars/AabyssZG/HashDump-BypassEDR)](https://github.com/AabyssZG/HashDump-BypassEDR/stargazers)
+
+
+## Forkers
+
+[![Forkers repo roster for @AabyssZG/HashDump-BypassEDR](http://reporoster.com/forks/AabyssZG/HashDump-BypassEDR)](https://github.com/AabyssZG/HashDump-BypassEDR/network/members)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AabyssZG/HashDump-BypassEDR&type=Date)](https://star-history.com/#AabyssZG/HashDump-BypassEDR&Date)
