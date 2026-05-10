@@ -32,6 +32,9 @@ int main(void) {
     int i, bi = -1;
     size_t len;
 
+    printf("++++ Auther: @AabyssZG ++++\n");
+    printf("++++ Github: github.com/AabyssZG/HashDump-BypassEDR ++++\n\n");
+
     for (i = 0; i < 2; i++) {
         sprintf(c, "%s\\JD", b[i]);
         if (get_class(HKEY_LOCAL_MACHINE, c, c, sizeof(c)) > 0) { bi = i; break; }
