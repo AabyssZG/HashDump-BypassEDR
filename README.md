@@ -34,6 +34,8 @@ reg.exe export HKLM\Security C:\Users\Public\security.reg
 .\RegReduction.ps1
 ```
 
+**注明：Github下载脚本后编码默认为UTF-8，需要通过记事本改成ANSI（GB2312）才能正常执行**
+
 ![powershell.png](img/powershell.png)
 
 ## 2.3 第三步、拿到BootKey
